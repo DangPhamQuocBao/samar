@@ -865,6 +865,16 @@ nav ul {
   color: #f55f8d;
   vertical-align: sub;
 }
+.blog__footer p:first-child i{
+  padding: 5px 5px;
+  border: 2px solid #f55f8d;
+  border-radius: 30px;
+  font-size: 10px;
+}
+.blog__footer p{
+  display: flex;
+  gap: 6px;
+}
 .blog__footer p:first-of-type {
   margin-right: 20px;
 }
@@ -1072,6 +1082,8 @@ footer::before {
   visibility: visible;
   opacity: 1;
 }
+
+
 
 /* KEYFRAMES */
 @keyframes upToDown {
